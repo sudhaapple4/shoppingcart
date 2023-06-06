@@ -50,7 +50,7 @@ const Header = () => {
               <Badge>{cart.length}</Badge>
             </Dropdown.Toggle>
 
-            <Dropdown.Menu style={{ minWidth: 370 }}>
+            <Dropdown.Menu style={{ minWidth: 370 }} className="dropdown-menu-right">
               {cart.length > 0 ? (
                 <>
                   {cart.map((prod) => (
